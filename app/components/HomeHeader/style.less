@@ -1,0 +1,80 @@
+.home-header {
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -moz-box-orient: vertical;
+  -moz-box-direction: normal;
+  width: 100%;
+  padding: .3rem;
+  background-color: #d20939;
+
+  .search-cont {
+    position: relative;
+    flex: 1;
+    display: block;
+    width: 0%;
+    margin:0 .36rem;
+
+    input {
+      width: 100%;
+      border: 0;
+      border-radius: 1.1rem;
+      background-color: #fff;
+      font-size: .5rem;
+      padding: .3rem 1rem;
+      color:#666;
+
+      &::placeholder {
+        color:#d1d1d1;
+      }
+    }
+
+    i.icon-search {
+      display: block;
+      position: absolute;
+      left: .28rem;
+      top: .34rem;
+      font-size: .5rem;
+      color:#d1d1d1;
+      width: .6rem;
+      height: .6rem;
+      background: url('../../static/images/public/icon_search.png') no-repeat center center;
+      background-size: 110% 110%;
+    }
+  }
+
+
+  .left-cont {
+    padding-top: .2rem;
+    font-size: .5rem;
+
+    a {
+      color:#fff;
+    }
+
+    i {
+      display: inline-block;
+      margin-left: .14rem;
+      width: .6rem;
+      height: .6rem;
+      background: url('../../static/images/public/icon_down.png') no-repeat center center;
+      background-size: 120% 120%;
+      vertical-align: middle;
+    }
+  }
+  .right-cont {
+    padding-top: .2rem;
+    font-size: .5rem;
+    color:#fff;
+
+    i {
+      display: inline-block;
+      margin-left: .14rem;
+      width: .7rem;
+      height: .7rem;
+      background: url('../../static/images/public/icon_person.png') no-repeat center center;
+      background-size: 120% 120%;
+      vertical-align: middle;
+    }
+  }
+}
